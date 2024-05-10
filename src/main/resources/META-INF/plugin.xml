@@ -27,4 +27,10 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+    <actions>
+        <action id="rightMenuPopText" class="com.example.junit4mockitogen.RightMenuPopText" text="右键弹出文本"
+                description="右键弹出文本">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
